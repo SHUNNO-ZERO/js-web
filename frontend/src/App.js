@@ -1,11 +1,11 @@
 import React from 'react';
-
+//this is app js and its fine to work .............
 import HomeScreen from './screens/HomeScreen.js';
 import ProductScreen from './screens/ProductScreen';
 
 import  {BrowserRouter, Route} from 'react-router-dom'
  
-
+  
 
 function App() {
   return (
