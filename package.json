@@ -1,10 +1,11 @@
 {
   "name": "amazona",
+  "type": "module",
   "version": "1.0.0",
   "description": "usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]            <command> [<args>]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/SHUNNO-ZERO/asif1#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
